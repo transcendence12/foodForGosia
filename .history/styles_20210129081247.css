@@ -1,17 +1,16 @@
-/*@-ms-viewport{
+@-ms-viewport{
     width: device-width;
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /*width: 100%;}*/
+    margin: 0
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #e5e5e5;
+    margin:
+    padding:
+    background-color: #e5e5e5
 }
 
 nav ul {
@@ -23,8 +22,7 @@ nav li {
 }
 
 nav a {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     text-decoration: none;
 }
 
@@ -79,12 +77,6 @@ nav a {
 
     color: black;
 }
-
-a {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-}
 /*Rectangle 1 */
 .section {
     position: absolute;
@@ -94,4 +86,3 @@ a {
     top: 186px;
     background-color: #fffaf3;
 }
-*/

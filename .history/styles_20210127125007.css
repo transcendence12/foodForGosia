@@ -1,0 +1,52 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:
+    padding:
+    background-color:
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+a .icon {
+    color: #202020;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 60px;
+    top: 60px;
+}
+
+.primary {
+    position: absolute;
+    width: auto
+    height:auto
+    left:auto
+    
+}
+
+a .logo {
+    position: absolute;
+    width: 38.64;
+    height: 59px;
+    left: 701px;
+    top: 43px;
+
+}

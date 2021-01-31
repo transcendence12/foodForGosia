@@ -1,0 +1,29 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:
+    padding:
+    background-color:
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+}
+
+nav a.active {
+    
+}

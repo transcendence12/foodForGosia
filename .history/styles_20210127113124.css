@@ -1,0 +1,11 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+* {
+    box-sizing: border;
+}
+
+.header {
+list-style-type: none;
+}
