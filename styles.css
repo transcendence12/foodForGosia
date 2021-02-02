@@ -1,12 +1,7 @@
-/*@-ms-viewport{
-    width: device-width;
+html, body {
+    height: 100%;
+    width: 100%;
 }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /*width: 100%;}*/
 
 body {
     margin: 0;
@@ -23,8 +18,6 @@ nav li {
 }
 
 nav a {
-    display: flex;
-    justify-content: space-between;
     text-decoration: none;
 }
 
@@ -37,21 +30,20 @@ nav a {
     top: 60px;
 }
 
-.primary {
-    position: absolute;
-    width: 305px;
-    height: 27px;
-    left: 298px;
-    top: 59px;
+.navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 40px 60px;
 
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
-    line-height: 27px;
 }
 
-.primary .home {
+
+.navigation-menu .active {
     color: #c08d5d
 }
 
@@ -63,35 +55,16 @@ nav a {
     top: 43px;
 
 }
-
-.secondary {
-    position: absolute;
-    width: 266px;
-    height: 27px;
-    left: 840px;
-    top: 60px;
-
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: black;
-}
-
 a {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
 }
-/*Rectangle 1 */
+
 .section {
-    position: absolute;
-    width: 1320px;
-    height: 634px;
-    left: 60px;
-    top: 186px;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
     background-color: #fffaf3;
 }
-*/
+
