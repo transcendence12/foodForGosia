@@ -1,0 +1,216 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5 url(image.png) no-repeat top right;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.icon {
+    color: #202020;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 60px;
+    top: 60px;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 40px 60px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.navigation-menu .active {
+    color: #c08d5d
+}
+
+.logo {
+    position: absolute;
+    width: 38.64;
+    height: 59px;
+    left: 50%;
+    margin-left: auto;
+    /* left: 701px; -to z Figma dane */
+    /* left: 50%;
+ujemny margines dodac (ile, gdzie?) zeby odjąć połowę szerokości; wycentrowac ale zostawić position: absolute; Nie wiem jak to zrobić.
+*/
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.section {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fffaf3;
+    font-weight: bold;
+}
+
+.di
+
+span .food {
+    display: inline-block;
+    width: 124px;
+    height: 67px;
+    left: 180px;
+    top: 282px;
+    margin: 0;
+    padding: 0;
+
+    font-size: 50px;
+    line-height: 67px;
+    /* identical to box height */
+
+    letter-spacing: 0.06em;
+
+    color: #3F4042;
+}
+
+span .imagee {
+    display: inline-block;
+    left: 0%;
+    right: 0.77%;
+    top: 0%;
+    bottom: 0.9%;
+
+    background: #C08D5D;
+}
+
+.farming {
+    display: block;
+    width: 350px;
+    height: 93px;
+    left: 180px;
+    top: 347px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 93px;
+    letter-spacing: 0.06em;
+
+    color: #3F4042;
+}
+
+.wrapper2 {
+    position: absolute;
+    width: 535px;
+    height: 108px;
+    left: 180px;
+    top: 495px;
+
+}
+
+p .text {
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 147.6%;
+    /* or 27px */
+
+    letter-spacing: 0.06em;
+
+    color: #3F4042;
+}
+
+.vector {
+    width: 165px;
+    height: 9.03px;
+    left: 184px;
+    top: 460px;
+
+}
+
+.wrapper3 {
+    width: 197px;
+    height: 64px;
+    left: 180px;
+    top: 675px;
+}
+
+.button1 {
+/*    width: 108px;
+    height: 30px;
+    left: 195px;
+    top: 692px; */
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.6%;
+    /* identical to box height, or 30px */
+
+    letter-spacing: 0.06em;
+
+    color: #3F4042;
+
+}
+
+.arrow {
+   /* width: 197px;*/
+    height: 64px;
+    left: 180px;
+    top: 675px;
+
+    background: #C08D5D;
+}
+.section {
+    display: flex;
+}
+/*Button*/
+.wrapper3 {
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.button1 {
+    flex-grow: 2;
+}
+
+.arrow {
+    flex-grow: 1;
+}
